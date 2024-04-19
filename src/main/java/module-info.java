@@ -6,4 +6,7 @@ module com.example.passwordcracker {
 
     opens com.example.passwordcracker to javafx.fxml;
     exports com.example.passwordcracker;
+
+    exports JavaFXSQL; // Export the package containing your database-related classes
 }
+
