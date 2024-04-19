@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 public class MySQLConnection {
 
-    public static final String URL = "jdbc:mysql://localhost:3306/dboop2";
+    public static final String URL = "jdbc:mysql://localhost:3306/dbajerooop2";
 
     public static final String USER = "root";
 
