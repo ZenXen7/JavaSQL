@@ -45,7 +45,7 @@ public class UserList extends Stage {
                 try(Connection c = MySQLConnection.getConnection();
                     PreparedStatement statement = c.prepareStatement("UPDATE users SET username=? WHERE username=?")) {
                     Scanner sc = new Scanner(System.in);
-                    System.out.println("Update username into: ");
+                    System.out.print("Update username into: ");
                     String newUsername = sc.nextLine();
                     statement.setString(1, newUsername);
                     statement.setString(2, selected);
